@@ -4,22 +4,18 @@
   "description": "filters unknown dom properties from props object",
   "main": "dist/index.js",
   "files": [
-    "build"
+    "dist/index.js"
   ],
-  "directories": {
-    "lib": "src/lib"
-  },
   "scripts": {
     "build": "rimraf build && webpack",
     "prestart": "npm run build",
-    "start": "node bin/main.js",
     "pretest": "npm run build",
-    "test": "mocha build/test.js",
+    "test": "mocha dist/test.js",
     "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/resisttheurge/babel-webpack-package-boilerplate.git"
+    "url": "git+https://github.com/tyv/pick-react-known-prop.git"
   },
   "keywords": [
     "react",

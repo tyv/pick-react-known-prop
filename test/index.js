@@ -7,7 +7,9 @@ const validReactHTMLProps = {
   'className': 'className',
   'role': 'role',
   'data-my-attr': 'data-my-attr',
-  'aria-label': 'aria-label'
+  'aria-label': 'aria-label',
+  'onClick': 'onClick',
+  'onChange': 'onChange'
 }
 
 const validReactSVGProps = {

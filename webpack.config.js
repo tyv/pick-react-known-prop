@@ -10,15 +10,10 @@ module.exports = {
     test: './test/index.js'
   },
 
-  target: 'async-node',
-
-  devtool: 'source-map',
-
   output: {
-    path: './build',
-    filename: '[name].js',
-    library: 'babel-webpack-package-boilerplate',
-    libraryTarget: 'commonjs2'
+    path: './dist',
+    libraryTarget: 'commonjs2',
+    filename: '[name].js'
   },
 
   resolve: {
@@ -39,5 +34,4 @@ module.exports = {
       loader: 'babel'
     }]
   }
-
 }
