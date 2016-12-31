@@ -45,8 +45,6 @@
   },
   "dependencies": {
     "html-attributes": "^1.1.0",
-    "lodash.isplainobject": "^4.0.4",
-    "lodash.pickby": "^4.4.0",
     "svg-attributes": "^1.0.0"
   }
 }

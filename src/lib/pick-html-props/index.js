@@ -1,6 +1,5 @@
-import pickBy from 'lodash.pickby'
-import isPlainObject from 'lodash.isplainobject'
 import HTMLAttrs from 'html-attributes'
+import pickProps from '../pick-props'
 
 const extra = [
   'about', 'datatype', 'inlist', 'prefix', 'property',
@@ -28,10 +27,4 @@ const ReactHTMLAttrs = {
   }, {})
 }
 
-export default function(props) {
-  if (!isPlainObject(props)) throw new Error('props should be a plain object')
-  return pickBy(
-    props,
-    (val, prop) => Boolean(ReactHTMLAttrs[prop]) || /^(data|aria)-/.test(prop)
-  )
-}
+export default pickProps(prop => Boolean(ReactHTMLAttrs[prop]) || /^(data|aria)-/.test(prop))
