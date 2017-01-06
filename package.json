@@ -1,6 +1,6 @@
 {
   "name": "pick-react-known-prop",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "filters unknown dom properties from props object",
   "main": "dist/index.js",
   "files": [
@@ -47,5 +47,25 @@
   "dependencies": {
     "html-attributes": "^1.1.0",
     "svg-attributes": "^1.0.0"
-  }
+  },
+  "contributors": [
+    {
+      "name": "Tvrqvoise",
+      "email": "",
+      "url": "https://github.com/Tvrqvoise",
+      "contributions": 1,
+      "additions": 111,
+      "deletions": 23,
+      "hireable": null
+    },
+    {
+      "name": "Yuri Tkachenko",
+      "email": "yuri@ya.ru",
+      "url": "https://github.com/tyv",
+      "contributions": 3,
+      "additions": 262,
+      "deletions": 26,
+      "hireable": null
+    }
+  ]
 }
