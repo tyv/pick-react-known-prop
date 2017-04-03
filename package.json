@@ -1,6 +1,6 @@
 {
   "name": "pick-react-known-prop",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "filters unknown dom properties from props object",
   "main": "dist/index.js",
   "files": [
@@ -60,12 +60,21 @@
       "hireable": null
     },
     {
+      "name": "Anshul Sahni",
+      "email": "anshul_sahni@live.com",
+      "url": "https://github.com/anshulsahni",
+      "contributions": 4,
+      "additions": 3,
+      "deletions": 90,
+      "hireable": true
+    },
+    {
       "name": "Yuri Tkachenko",
       "email": "yuri@ya.ru",
       "url": "https://github.com/tyv",
-      "contributions": 3,
-      "additions": 262,
-      "deletions": 26,
+      "contributions": 4,
+      "additions": 284,
+      "deletions": 28,
       "hireable": null
     }
   ]
