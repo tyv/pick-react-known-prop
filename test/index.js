@@ -1,8 +1,6 @@
 import assert from 'assert'
 import pickHTMLProps from 'pick-html-props'
 import pickSVGProps from 'pick-svg-props'
-import isPlainObject from 'lodash.isplainobject'
-import _ from 'lodash'
 
 const validReactHTMLProps = {
   id: 'id',

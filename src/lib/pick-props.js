@@ -1,4 +1,4 @@
-import isPlainObject from 'lodash.isplainobject';
+import isPlainObject from 'lodash.isplainobject'
 
 export default filter => props => {
   if (!isPlainObject(props)) throw new Error('props should be a plain object')
