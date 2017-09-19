@@ -4,12 +4,13 @@ import pickSVGProps from 'pick-svg-props'
 
 const validReactHTMLProps = {
   id: 'id',
-  'className': 'className',
-  'role': 'role',
+  className: 'className',
+  defaultValue: 'defaultValue',
+  role: 'role',
   'data-my-attr': 'data-my-attr',
   'aria-label': 'aria-label',
-  'onClick': 'onClick',
-  'onChange': 'onChange'
+  onClick: 'onClick',
+  onChange: 'onChange'
 }
 
 const validReactSVGProps = {
