@@ -15,7 +15,17 @@ const extra = [
   'onMouseDown', 'onMouseEnter', 'onMouseLeave', 'onMouseMove',
   'onMouseOut', 'onMouseOver', 'onMouseUp', 'onPaste',
   'onScroll', 'onSubmit', 'onTouchCancel', 'onTouchEnd', 'onTouchMove',
-  'onTouchStart', 'onWheel'
+  'onTouchStart', 'onWheel', 'onCompositionEnd', 'onCompositionStart',
+  'onCompositionUpdate', 'onInvalid', 'onPointerDown', 'onPointerMove',
+  'onPointerUp', 'onPointerCancel', 'onGotPointerCapture',
+  'onLostPointerCapture', 'onPointerEnter', 'onPointerLeave', 'onPointerOver',
+  'onPointerOut','onSelect', 'onAbort', 'onCanPlay', 'onCanPlayThrough',
+  'onDurationChange', 'onEmptied', 'onEncrypted', 'onEnded', 'onError',
+  'onLoadedData', 'onLoadedMetadata', 'onLoadStart', 'onPause', 'onPlay',
+  'onPlaying', 'onProgress', 'onRateChange', 'onSeeked', 'onSeeking',
+  'onStalled', 'onSuspend', 'onTimeUpdate', 'onVolumeChange', 'onWaiting',
+  'onLoad', 'onError', 'onAnimationStart', 'onAnimationEnd',
+  'onAnimationIteration', 'onTransitionEnd', 'onToggle'
 ]
 
 
