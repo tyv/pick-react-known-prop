@@ -10,7 +10,12 @@ const validReactHTMLProps = {
   'data-my-attr': 'data-my-attr',
   'aria-label': 'aria-label',
   onClick: 'onClick',
-  onChange: 'onChange'
+  onChange: 'onChange',
+  allowtransparency: 'allowtransparency',
+  charSet: 'charSet',
+  ismap: 'ismap',
+  itemID: 'itemID',
+  typemustmatch: 'typemustmatch'
 }
 
 const validReactSVGProps = {
