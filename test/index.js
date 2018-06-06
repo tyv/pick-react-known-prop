@@ -10,7 +10,12 @@ const validReactHTMLProps = {
   'data-my-attr': 'data-my-attr',
   'aria-label': 'aria-label',
   onClick: 'onClick',
-  onChange: 'onChange'
+  onChange: 'onChange',
+  allowtransparency: 'allowtransparency',
+  charSet: 'charSet',
+  ismap: 'ismap',
+  itemID: 'itemID',
+  typemustmatch: 'typemustmatch'
 }
 
 const validReactSVGProps = {
@@ -22,7 +27,14 @@ const validReactSVGProps = {
 const invalidReactProps = {
   invalidProp: 'invalidProp',
   dataprop: 'dataprop',
-  'invalid-prop': 'invalid-prop'
+  'invalid-prop': 'invalid-prop',
+  allowTransparency: 'allowTransparency',
+  charset: 'charset',
+  isMap: 'isMap',
+  itemId: 'itemId',
+  typeMustMatch: 'typeMustMatch',
+  class: 'class',
+  for: 'for'
 }
 
 describe(
