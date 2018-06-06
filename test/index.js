@@ -27,14 +27,7 @@ const validReactSVGProps = {
 const invalidReactProps = {
   invalidProp: 'invalidProp',
   dataprop: 'dataprop',
-  'invalid-prop': 'invalid-prop',
-  allowTransparency: 'allowTransparency',
-  charset: 'charset',
-  isMap: 'isMap',
-  itemId: 'itemId',
-  typeMustMatch: 'typeMustMatch',
-  class: 'class',
-  for: 'for'
+  'invalid-prop': 'invalid-prop'
 }
 
 describe(
