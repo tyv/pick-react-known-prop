@@ -6,6 +6,7 @@ const validReactHTMLProps = {
   id: 'id',
   className: 'className',
   defaultValue: 'defaultValue',
+  defaultChecked: 'defaultChecked',
   role: 'role',
   'data-my-attr': 'data-my-attr',
   'aria-label': 'aria-label',
