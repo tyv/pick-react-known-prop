@@ -2,8 +2,8 @@ import HTMLAttrs from 'html-attributes'
 import pickProps from '../pick-props'
 
 const extra = [
-  'about', 'datatype', 'defaultValue', 'inlist', 'prefix', 'property',
-  'resource', 'typeof', 'vocab', 'autoCapitalize', 'autoCorrect',
+  'about', 'datatype', 'defaultChecked', 'defaultValue', 'inlist', 'prefix',
+  'property', 'resource', 'typeof', 'vocab', 'autoCapitalize', 'autoCorrect',
   'color', 'itemProp', 'itemScope', 'itemType', 'itemRef', 'itemID',
   'security', 'unselectable', 'results', 'autoSave', 'allowtransparency',
   'charSet', 'ismap', 'typemustmatch',
